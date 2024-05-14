@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #487eb0;
+    padding: 20px 10px;
+}
+.container {
+    width: 420px;
+}
+form {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px 15px;
+}
+h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #487eb0;
+    margin-bottom: 15px;
+}
+.inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.inputGroup label {
+    color: #202020;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.inputGroup input, textarea {
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    color: #202020;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+.inputGroup input:focus{
+    border: 1px solid #487eb0;
+}
+.inputGroup textarea {
+    height: 140px;
+}
+.inputGroup textarea:focus {
+    border: 1px solid #487eb0;
+}
+.inputGroup span {
+    margin: 5px 0px 0px 5px;
+    font-size: 14px;
+    color: #ff0000;
+}
+.inputGroup img {
+    width: 15px;
+    margin-bottom: -2px;
+}
+.inputGroup p {
+    display: inline-block;
+    font-size: 14px;
+    color: #202020;
+}
+input#submit{
+    background: #487eb0;
+    color: #ffffff;
+    cursor: pointer;
+}
